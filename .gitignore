@@ -1,0 +1,6 @@
+exploratory-reports/
+settings.json
+settings.local.json
+.playwright-mcp
+.playwright-cli
+.claude/skills/playwright-cli/
