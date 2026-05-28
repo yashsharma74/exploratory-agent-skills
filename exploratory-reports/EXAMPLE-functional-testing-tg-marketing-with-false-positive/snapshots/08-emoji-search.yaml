@@ -1,0 +1,174 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - button "EN" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+        - text: EN
+      - generic [ref=e9]:
+        - link "Help" [ref=e10] [cursor=pointer]:
+          - /url: https://support.testgorilla.com/
+        - link "Log in" [ref=e11] [cursor=pointer]:
+          - /url: https://app.testgorilla.com/?language=en
+    - generic [ref=e13]:
+      - link "TestGorilla Logo" [ref=e14] [cursor=pointer]:
+        - /url: /
+        - img "TestGorilla Logo" [ref=e15]
+      - generic [ref=e16]:
+        - button "Products" [ref=e17] [cursor=pointer]:
+          - generic [ref=e18]:
+            - generic [ref=e19]: Products
+            - img [ref=e20]
+        - link "Pricing" [ref=e22] [cursor=pointer]:
+          - /url: /pricing/
+        - button "Resources" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]:
+            - generic [ref=e25]: Resources
+            - img [ref=e26]
+        - button "Job seekers" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: Job seekers
+            - img [ref=e31]
+      - generic [ref=e33]:
+        - link "Try for free" [ref=e35] [cursor=pointer]:
+          - /url: https://app.testgorilla.com/register/customer?language=en
+        - link "Get a free demo" [ref=e37] [cursor=pointer]:
+          - /url: /demo-signup/
+    - generic [ref=e39]:
+      - heading "Which role are you hiring for?" [level=1] [ref=e40]
+      - paragraph [ref=e41]: Browse tests or let AI recommend the best ones for your job.
+      - textbox "Enter the name of the job role or paste your job description..." [ref=e43]
+      - button "Suggest tests" [disabled] [ref=e46]:
+        - img [ref=e47]
+        - text: Suggest tests
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - textbox "Search by keyword" [active] [ref=e54]: 🦍🍌
+            - img [ref=e4595]
+            - img [ref=e56]
+            - button [ref=e4597] [cursor=pointer]
+            - button [ref=e58] [cursor=pointer]
+          - button "0" [ref=e59] [cursor=pointer]:
+            - img [ref=e60]
+            - generic [ref=e63]: "0"
+          - button [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+        - generic [ref=e67]:
+          - button "All" [ref=e68] [cursor=pointer]
+          - button "AI Fluency" [ref=e69] [cursor=pointer]:
+            - img [ref=e70]
+            - text: AI Fluency
+          - button "Cognitive ability" [ref=e72] [cursor=pointer]
+          - button "Language" [ref=e73] [cursor=pointer]
+          - button "Personality & culture" [ref=e74] [cursor=pointer]
+          - button "Programming skills" [ref=e75] [cursor=pointer]
+          - button "Role specific skills" [ref=e76] [cursor=pointer]
+          - button "Situational judgment" [ref=e77] [cursor=pointer]
+          - button "Software skills" [ref=e78] [cursor=pointer]
+          - button "Typing speed" [ref=e79] [cursor=pointer]
+      - paragraph [ref=e4600]: Sorry, none of the tests matched your search query.
+    - contentinfo [ref=e4535]:
+      - generic [ref=e4536]:
+        - link "TestGorilla Logo" [ref=e4538] [cursor=pointer]:
+          - /url: /
+          - img "TestGorilla Logo" [ref=e4539]
+        - generic [ref=e4540]:
+          - link "Product updates" [ref=e4541] [cursor=pointer]:
+            - /url: https://support.testgorilla.com/hc/en-us/sections/9025202774811--Roadmap-and-release-notes
+            - generic [ref=e4542]: Product updates
+          - link "Help center" [ref=e4543] [cursor=pointer]:
+            - /url: https://support.testgorilla.com/hc/en-us
+            - generic [ref=e4544]: Help center
+          - link "For candidates" [ref=e4545] [cursor=pointer]:
+            - /url: https://candidates.testgorilla.com/hc/en-us
+            - generic [ref=e4546]: For candidates
+          - link "Sitemap" [ref=e4547] [cursor=pointer]:
+            - /url: /sitemap/
+            - generic [ref=e4548]: Sitemap
+          - link "Legal stuff" [ref=e4549] [cursor=pointer]:
+            - /url: /terms/
+            - generic [ref=e4550]: Legal stuff
+          - link "Partnerships" [ref=e4551] [cursor=pointer]:
+            - /url: /partnerships/
+            - generic [ref=e4552]: Partnerships
+        - generic [ref=e4553]:
+          - link "Careers" [ref=e4554] [cursor=pointer]:
+            - /url: /careers/
+            - generic [ref=e4555]: Careers
+          - link "Blog" [ref=e4556] [cursor=pointer]:
+            - /url: /blog/
+            - generic [ref=e4557]: Blog
+          - link "Privacy policy" [ref=e4558] [cursor=pointer]:
+            - /url: /privacy-policy/
+            - generic [ref=e4559]: Privacy policy
+          - link "Contact" [ref=e4560] [cursor=pointer]:
+            - /url: https://support.testgorilla.com/hc/en-us/requests/new
+            - generic [ref=e4561]: Contact
+          - link "Press room" [ref=e4562] [cursor=pointer]:
+            - /url: /press-room/
+            - generic [ref=e4563]: Press room
+        - generic [ref=e4569]:
+          - generic [ref=e4570]:
+            - link "Facebook" [ref=e4571] [cursor=pointer]:
+              - /url: https://www.facebook.com/testgorilla/
+              - img "Facebook" [ref=e4573]
+            - link "Instagram" [ref=e4574] [cursor=pointer]:
+              - /url: https://www.instagram.com/testgorilla_official/
+              - img "Instagram" [ref=e4576]
+            - link "LinkedIn" [ref=e4577] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/testgorilla/
+              - img "LinkedIn" [ref=e4579]
+          - generic [ref=e4580]: © TestGorilla 2026. All rights reserved.
+  - alert [ref=e4581]: Test Library | Pre-Employment Tests for all Job Roles - TestGorilla
+  - iframe [ref=e4582]:
+    
+  - generic:
+    - iframe [ref=e4585]:
+      - generic [ref=f33e2]:
+        - button "Close" [ref=f33e4] [cursor=pointer]:
+          - img [ref=f33e5]
+        - generic [ref=f33e19]:
+          - text: 1 in 2 hiring managers prioritize AI fluency yet
+          - strong [ref=f33e20]: 59% have made a bad AI hire
+          - text: .
+          - link "→ Read more in the \"State of Hiring for AI fluency\" report" [ref=f33e22] [cursor=pointer]:
+            - /url: https://cta-service-cms2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLJZ%2BOpMSrPCJPNSt7WAnMZ7BGtooy26JjpOF8Xn5lsHJw6%2F4aWGlw2RKgwvCFyUgePaT1flFStuXHz9LDl5fDPKbyaaCPS4SDHzo%2BRfSkCNiNVh2WD1fKfW%2FNad%2Byv3RmVPUy7bzIGhccVy4S%2BddgoyA%2BpmocyPqoNF6n2mRj0%2BB6LmMhG0MjatgFcBqAi3q4ulSYPbh66gDLEspPctXZ%2ByD7WpvquHSA%3D%3D&portalId=6821985&webInteractiveId=552249631063&webInteractiveContentId=211982742322&containerType=BANNER&campaignId=7942254b-4231-48d8-85e0-f8d4a2228418&pageUrl=https%3A%2F%2Fwww.testgorilla.com%2Ftest-library%2F
+    - dialog [ref=e4602]:
+      - iframe [ref=e4603]:
+        - generic [ref=f34e2]:
+          - button "Close" [ref=f34e4] [cursor=pointer]:
+            - img [ref=f34e5]
+          - generic [ref=f34e10]:
+            - link "A friendly TestGorilla expert ready to help you-1" [ref=f34e17] [cursor=pointer]:
+              - /url: https://cta-service-cms2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLIFXYJ1JeX8yjzTanNr01PLbhcr3GmlfC3jJoWKSoNLMqE21CQQtWxv0efawWt1O6TZWpDnQxSwm0BrhQ%2BUaeEqgG63lf6PAPcWFtfDmPnP4Ah2NHXJ98UP3S5THrqrJQ%2BSsDJjgEVpkN%2FitaYWWfFfo4dpDzFoj9QfKkSczHxM23qAweszn5w%3D&portalId=6821985&webInteractiveId=370783479580&webInteractiveContentId=180236984735&containerType=MODAL&campaignId=10d08c3f-a33b-4dd7-820d-cd09adb9d5a7&pageUrl=https%3A%2F%2Fwww.testgorilla.com%2Ftest-library%2F
+              - img "A friendly TestGorilla expert ready to help you-1" [ref=f34e18]
+            - generic [ref=f34e21]:
+              - heading "Get a demo for your company" [level=2] [ref=f34e27]
+              - paragraph [ref=f34e33]: Chat with a talent discovery expert for a personalized demo. Learn how TestGorilla helps you source, screen, shortlist candidates - fast!
+              - link "Get a demo" [ref=f34e39] [cursor=pointer]:
+                - /url: https://cta-service-cms2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLJjqGThyzBD8cBZ4qQyZBKd2oaCVYnVt6SBrpgdQoFqBheehKGNY3YxoGFRxbP06mI57VvQMY6WAWvOKkF%2BSGwgObQsODLL5HpiBqMKRoFBk91htqEo60ZEalLN2V3jyUR5bC%2BfeetonFYYYWi8G9JKK%2B0EA8rLHL4%2BqMDJMM961jzjLh%2BXz50%3D&portalId=6821985&webInteractiveId=370783479580&webInteractiveContentId=180236984735&containerType=MODAL&campaignId=10d08c3f-a33b-4dd7-820d-cd09adb9d5a7&pageUrl=https%3A%2F%2Fwww.testgorilla.com%2Ftest-library%2F
+              - separator [ref=f34e44]
+              - generic [ref=f34e46]:
+                - img "Job-Seeker-new" [ref=f34e54]
+                - generic [ref=f34e55]:
+                  - heading "Assessment invite? Job seeker?" [level=2] [ref=f34e61]:
+                    - text: Assessment invite?
+                    - text: Job seeker?
+                  - paragraph [ref=f34e67]: Prepare for assessments, ask questions and access new job listings on our job seeker hub.
+                  - link "Go to the guide" [ref=f34e73] [cursor=pointer]:
+                    - /url: https://cta-service-cms2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLLe9iFkincULUE4ZHeQmXMwfYoUAnCEe8KCbars7HY1Bg%2BRxH9zCyMZVrGgSLYaGN2T0P%2Bu%2Fu2YrmrBPMI6kcK7huoU5plyhY3u%2BsXEvaY%2BsgsguRixQVyXYNxAsi9P66MIm8RfxeGueN8dd9TECsbKjOH2yjcdsPiIuOR%2FoQ1V%2BBR%2FcernpYuW3IUOPTXwMM1S&portalId=6821985&webInteractiveId=370783479580&webInteractiveContentId=180236984735&containerType=MODAL&campaignId=10d08c3f-a33b-4dd7-820d-cd09adb9d5a7&pageUrl=https%3A%2F%2Fwww.testgorilla.com%2Ftest-library%2F
+  - region "Chat Widget" [ref=e4586]:
+    - iframe [ref=e4587]:
+      - generic [ref=f31e2]:
+        - generic [ref=f31e6]:
+          - button "Open live chat" [ref=f31e7]:
+            - img "Avatar of Alex Morgan" [ref=f31e13]
+            - generic [ref=f31e14]: Hi there 👋
+          - button "Close welcome page" [ref=f31e15]:
+            - img [ref=f31e17]
+        - button "Open live chat" [ref=f31e24]:
+          - img [ref=f31e27]
+          - img [ref=f31e34]
+  - button "Open cookie settings widget" [ref=e4589] [cursor=pointer]:
+    - img [ref=e4590]

@@ -1,0 +1,47 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(playwright-cli *)",
+      "Bash(skills/web-navigator/scripts/*)",
+      "Bash(./skills/web-navigator/scripts/*)",
+      "Bash(bash skills/web-navigator/scripts/* *)",
+      "Bash(bash ./skills/web-navigator/scripts/* *)",
+      "Bash(./skills/web-navigator/scripts/*.sh *)",
+      "Bash(mkdir -p *)",
+      "Bash(mkdir *)",
+      "Bash(touch *)",
+      "Bash(ls *)",
+      "Bash(ls)",
+      "Bash(cat exploratory-reports/*)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(grep *)",
+      "Bash(find *)",
+      "Bash(awk *)",
+      "Bash(sed *)",
+      "Bash(rm exploratory-reports/2*)",
+      "Bash(rm -rf exploratory-reports/2*)",
+      "Bash(mv exploratory-reports/2* *)",
+      "Bash(date *)",
+      "Bash(wc *)",
+      "Bash(node -e *)",
+      "Bash(python3 *)",
+      "Bash(printf *)",
+      "Read(exploratory-reports/**)",
+      "Read(skills/**)",
+      "Read(HEURISTICS.md)",
+      "Read(HATS.md)",
+      "Read(AGENTS.md)",
+      "Read(CLAUDE.md)",
+      "Write(exploratory-reports/**)",
+      "Edit(exploratory-reports/**)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Bash(git push *)",
+      "Bash(git reset --hard *)"
+    ]
+  }
+}

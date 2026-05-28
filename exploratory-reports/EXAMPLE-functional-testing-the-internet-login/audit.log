@@ -1,0 +1,25 @@
+[16:27:06] [info] SESSION: initialized — skill=functional-testing, feature=the-internet-login
+[16:27:07] [info] SESSION: mission — Test login flow to find auth/validation gaps
+[16:27:12] [info] ACT: open browser → ready (1280x720)
+[16:27:14] [info] NAV: goto /login → page loaded
+[16:27:14] [info] SNAPSHOT: saved → 01-login.yaml
+[16:27:15] [info] EVIDENCE: screenshot → 01-pass-login-page-reached.png (pass proof)
+[16:27:17] [info] ACT: click Login (ref=e21) with empty form
+[16:27:18] [info] SNAPSHOT: saved → 02-after-empty-submit.yaml
+[16:27:18] [info] CHECK: functional-VAL-01 — PASS — empty form rejected with validation error
+[16:27:19] [info] NAV: goto /login → reset for probe 2
+[16:27:20] [info] SNAPSHOT: saved → 03-login-reset.yaml
+[16:27:23] [info] ACT: fill Username=wronguser, Password=<redacted>
+[16:27:25] [info] ACT: click Login (ref=e21)
+[16:27:27] [info] SNAPSHOT: saved → 04-after-invalid.yaml
+[16:27:27] [info] CHECK: functional-VAL-02 — PASS — invalid credentials show error
+[16:27:28] [info] NAV: goto /login → reset for probe 3
+[16:27:28] [info] SNAPSHOT: saved → 05-login-reset.yaml
+[16:27:31] [info] ACT: fill Username=tomsmith, Password=<redacted>
+[16:27:33] [info] ACT: click Login (ref=e21)
+[16:27:36] [info] SNAPSHOT: saved → 06-after-valid.yaml
+[16:27:37] [info] CHECK: functional-F-01 — PASS — valid credentials redirect to /secure
+[16:27:37] [info] AUTH: login complete — tomsmith via form
+[16:27:38] [info] EVIDENCE: screenshot → 04-pass-secure-area.png
+[16:27:40] [info] ACT: close browser
+[16:27:40] [info] SESSION: completed — 3 passed, 0 failed, 3 steps

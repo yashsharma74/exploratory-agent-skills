@@ -1,0 +1,692 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - button "EN" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+        - text: EN
+      - generic [ref=e9]:
+        - link "Help" [ref=e10] [cursor=pointer]:
+          - /url: https://support.testgorilla.com/
+        - link "Log in" [ref=e11] [cursor=pointer]:
+          - /url: https://app.testgorilla.com/?language=en
+    - generic [ref=e13]:
+      - link "TestGorilla Logo" [ref=e14] [cursor=pointer]:
+        - /url: /
+        - img "TestGorilla Logo" [ref=e15]
+      - generic [ref=e16]:
+        - button "Products" [ref=e17] [cursor=pointer]:
+          - generic [ref=e18]:
+            - generic [ref=e19]: Products
+            - img [ref=e20]
+        - link "Pricing" [ref=e22] [cursor=pointer]:
+          - /url: /pricing/
+        - button "Resources" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]:
+            - generic [ref=e25]: Resources
+            - img [ref=e26]
+        - button "Job seekers" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: Job seekers
+            - img [ref=e31]
+      - generic [ref=e33]:
+        - link "Try for free" [ref=e35] [cursor=pointer]:
+          - /url: https://app.testgorilla.com/register/customer?language=en
+        - link "Get a free demo" [ref=e37] [cursor=pointer]:
+          - /url: /demo-signup/
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - heading "FLEXIBLE CREDIT PRICING" [level=1] [ref=e41]
+          - heading "Free top-of-funnel screening tools. Pay only for what you use." [level=2] [ref=e42]
+          - generic [ref=e43]:
+            - generic [ref=e44]: Always free tools
+            - generic [ref=e45]:
+              - text: AI resume scoring
+              - generic [ref=e46]: •
+              - text: Qualifying questions
+              - generic [ref=e47]: •
+              - text: Custom questions
+        - generic [ref=e48]:
+          - button "EUR €" [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]: EUR €
+            - img [ref=e53]
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - generic [ref=e58]:
+                - img "Free" [ref=e59]
+                - heading "Free" [level=3] [ref=e60]
+              - paragraph [ref=e62]: Discover what TestGorilla can do for you
+              - generic [ref=e63]:
+                - generic [ref=e65]:
+                  - generic [ref=e66]:
+                    - paragraph [ref=e67]: € 0
+                    - generic [ref=e68]: /mo
+                  - generic [ref=e70]: No credit card needed
+                - paragraph [ref=e71]: 10 free credits every month
+              - link "Try for free" [ref=e75] [cursor=pointer]:
+                - /url: https://app.testgorilla.com/register/customer?source=pricing&language=en
+              - generic [ref=e76]:
+                - paragraph [ref=e79]: "Free includes:"
+                - generic [ref=e82]:
+                  - img [ref=e83]
+                  - paragraph [ref=e85]: Custom Conversational and One-way AI video interviews
+                - generic [ref=e88]:
+                  - img [ref=e89]
+                  - paragraph [ref=e91]: 5 essential skills tests
+                - generic [ref=e94]:
+                  - img [ref=e95]
+                  - paragraph [ref=e97]: AI resume scoring
+                - generic [ref=e100]:
+                  - img [ref=e101]
+                  - paragraph [ref=e103]: Qualifying questions
+                - generic [ref=e106]:
+                  - img [ref=e107]
+                  - paragraph [ref=e109]: Up to 5 custom questions per assessment
+                - generic [ref=e112]:
+                  - img [ref=e113]
+                  - paragraph [ref=e115]: 1 full access seat
+            - generic [ref=e116]:
+              - generic [ref=e118]:
+                - img "Core" [ref=e119]
+                - heading "Core" [level=3] [ref=e120]
+              - paragraph [ref=e122]: For smaller companies or limited hiring needs
+              - generic [ref=e123]:
+                - generic [ref=e125]:
+                  - generic [ref=e126]:
+                    - paragraph [ref=e127]: € 66
+                    - generic [ref=e128]: /mo
+                  - generic [ref=e129]:
+                    - generic [ref=e130]:
+                      - generic [ref=e131]: Annual commitment
+                      - text: Annual commitment
+                    - generic [ref=e132]: € 792 billed annually
+                - button "250 credits/year" [ref=e135] [cursor=pointer]:
+                  - generic [ref=e136]: 250 credits/year
+                  - img [ref=e137]
+              - link "Get started" [ref=e142] [cursor=pointer]:
+                - /url: https://app.testgorilla.com/register/customer?source=pricing&language=en&plan=gen4-v2-plan-core-EUR&credit_tier=250
+              - generic [ref=e143]:
+                - paragraph [ref=e146]: "Core includes:"
+                - generic [ref=e149]:
+                  - img [ref=e150]
+                  - paragraph [ref=e152]: Full test library, 350+ tests
+                - generic [ref=e155]:
+                  - img [ref=e156]
+                  - paragraph [ref=e158]: One-way AI video interviews (TestGorilla library only)
+                - generic [ref=e161]:
+                  - img [ref=e162]
+                  - paragraph [ref=e164]: AI resume scoring
+                - generic [ref=e167]:
+                  - img [ref=e168]
+                  - paragraph [ref=e170]: Qualifying questions
+                - generic [ref=e173]:
+                  - img [ref=e174]
+                  - paragraph [ref=e176]: Up to 5 custom questions per assessment
+                - generic [ref=e179]:
+                  - img [ref=e180]
+                  - paragraph [ref=e182]: Talent sourcing access, 2M+ candidates
+                - generic [ref=e185]:
+                  - img [ref=e186]
+                  - paragraph [ref=e188]: Analytics and reporting
+                - generic [ref=e191]:
+                  - img [ref=e192]
+                  - paragraph [ref=e194]: 2 full access seats
+            - generic [ref=e195]:
+              - generic [ref=e197]:
+                - img "Plus" [ref=e198]
+                - heading "Plus" [level=3] [ref=e199]
+              - paragraph [ref=e201]: For larger teams with ongoing hiring needs
+              - generic [ref=e202]:
+                - generic [ref=e204]:
+                  - generic [ref=e205]:
+                    - generic [ref=e206]: Starts from
+                    - paragraph [ref=e207]: € 345
+                    - generic [ref=e208]: /mo
+                  - generic [ref=e211]: Annual commitment starts at € 4.140
+                - paragraph [ref=e212]: Scales with your hiring needs
+              - link "Talk to us" [ref=e216] [cursor=pointer]:
+                - /url: /demo-signup/?source=pricing&plan_of_interest_demo_booking=plus
+              - generic [ref=e217]:
+                - paragraph [ref=e220]: "Everything in Core, plus:"
+                - generic [ref=e223]:
+                  - img [ref=e224]
+                  - paragraph [ref=e226]: Conversational and One-way AI video interviews (full customization with auto scoring)
+                - generic [ref=e229]:
+                  - img [ref=e230]
+                  - paragraph [ref=e232]: Custom tests and coding challenges
+                - generic [ref=e235]:
+                  - img [ref=e236]
+                  - paragraph [ref=e238]: ID verification
+                - generic [ref=e241]:
+                  - img [ref=e242]
+                  - paragraph [ref=e244]: Up to 20 custom questions per assessment
+                - generic [ref=e247]:
+                  - img [ref=e248]
+                  - paragraph [ref=e250]: ATS integrations and API access
+                - generic [ref=e253]:
+                  - img [ref=e254]
+                  - paragraph [ref=e256]: Remove TestGorilla branding
+                - generic [ref=e259]:
+                  - img [ref=e260]
+                  - paragraph [ref=e262]: Dedicated customer success manager
+                - generic [ref=e265]:
+                  - img [ref=e266]
+                  - paragraph [ref=e268]: Unlimited full access seats
+          - generic [ref=e269]:
+            - generic [ref=e270]:
+              - generic [ref=e271]:
+                - heading "Enterprise" [level=3] [ref=e273]
+                - paragraph [ref=e274]: For organizations with complex, high-volume hiring needs
+              - link "Contact sales" [ref=e277] [cursor=pointer]:
+                - /url: /demo-signup/?source=pricing&plan_of_interest_demo_booking=enterprise&language=en
+            - generic [ref=e278]:
+              - generic [ref=e279]: "Everything in Plus, and:"
+              - generic [ref=e280]:
+                - img [ref=e281]
+                - paragraph [ref=e283]: Scientific validation
+              - generic [ref=e284]:
+                - img [ref=e285]
+                - paragraph [ref=e287]: Security & compliance reviews
+              - generic [ref=e288]:
+                - img [ref=e289]
+                - paragraph [ref=e291]: Tailored agreements
+      - generic [ref=e293]:
+        - heading "Compare features across plans" [level=2] [ref=e294]
+        - generic "Compare features across plans" [ref=e295]:
+          - generic [ref=e296]:
+            - paragraph [ref=e298]: Features
+            - paragraph [ref=e301]: Free
+            - paragraph [ref=e304]: Core
+            - paragraph [ref=e307]: Plus
+          - generic [ref=e308] [cursor=pointer]:
+            - paragraph [ref=e309]: TestGorilla Assessments
+            - img [ref=e310]
+          - generic [ref=e313]:
+            - generic [ref=e314]:
+              - paragraph [ref=e316]: Skills tests
+              - generic [ref=e317]:
+                - generic [ref=e318]: 1 credit per candidate
+                - generic [ref=e319]:
+                  - paragraph [ref=e320]: "5"
+                  - img [ref=e323] [cursor=pointer]
+              - generic [ref=e325]:
+                - generic [ref=e326]: 1 credit per candidate
+                - generic [ref=e327]:
+                  - paragraph [ref=e328]: 350+
+                  - img [ref=e331] [cursor=pointer]
+              - generic [ref=e333]:
+                - generic [ref=e334]: 1 credit per candidate
+                - generic [ref=e335]:
+                  - paragraph [ref=e336]: 350+
+                  - img [ref=e339] [cursor=pointer]
+            - generic [ref=e341]:
+              - paragraph [ref=e343]: Essay style and file upload custom questions per assessment
+              - generic [ref=e344]:
+                - generic [ref=e345]: Free
+                - paragraph [ref=e346]: "5"
+              - generic [ref=e347]:
+                - generic [ref=e348]: Free
+                - paragraph [ref=e349]: "5"
+              - generic [ref=e350]:
+                - generic [ref=e351]: Free
+                - paragraph [ref=e352]: "20"
+            - generic [ref=e353]:
+              - paragraph [ref=e355]: AI resume scoring
+              - generic [ref=e357]: Free
+              - generic [ref=e359]: Free
+              - generic [ref=e361]: Free
+            - generic [ref=e362]:
+              - paragraph [ref=e364]: Conversational AI Interviews
+              - generic [ref=e366]: 2 credits per candidate
+              - generic [ref=e368]: —
+              - generic [ref=e370]: 2 credits per candidate
+            - generic [ref=e371]:
+              - generic [ref=e372]:
+                - paragraph [ref=e373]: One-way AI video interviews
+                - img [ref=e376] [cursor=pointer]
+              - generic [ref=e379]: 1 credit per candidate
+              - generic [ref=e381]: 1 credit per candidate
+              - generic [ref=e383]: 1 credit per candidate
+            - generic [ref=e384]:
+              - generic [ref=e385]:
+                - paragraph [ref=e386]: Auto-score custom questions with skills-trained AI
+                - img [ref=e389] [cursor=pointer]
+              - generic [ref=e392]: —
+              - img [ref=e394]
+              - img [ref=e397]
+            - generic [ref=e399]:
+              - generic [ref=e400]:
+                - paragraph [ref=e401]: Qualifying questions
+                - img [ref=e404] [cursor=pointer]
+              - generic [ref=e407]: Free
+              - generic [ref=e409]: Free
+              - generic [ref=e411]: Free
+            - generic [ref=e412]:
+              - generic [ref=e413]:
+                - paragraph [ref=e414]: AI job builder
+                - img [ref=e417] [cursor=pointer]
+              - img [ref=e420]
+              - img [ref=e423]
+              - img [ref=e426]
+            - generic [ref=e428]:
+              - paragraph [ref=e430]: Assessment deadlines
+              - generic [ref=e432]: —
+              - img [ref=e434]
+              - img [ref=e437]
+            - generic [ref=e439]:
+              - paragraph [ref=e441]: Build your own tests from scratch
+              - generic [ref=e443]: —
+              - generic [ref=e445]: —
+              - img [ref=e447]
+          - generic [ref=e449] [cursor=pointer]:
+            - paragraph [ref=e450]: TestGorilla Sourcing
+            - img [ref=e451]
+          - generic [ref=e454]:
+            - generic [ref=e455]:
+              - generic [ref=e456]:
+                - paragraph [ref=e457]: Invite a candidate
+                - img [ref=e460] [cursor=pointer]
+              - generic [ref=e463]: —
+              - generic [ref=e465]: 1 credit per candidate
+              - generic [ref=e467]: 1 credit per candidate
+            - generic [ref=e468]:
+              - paragraph [ref=e470]: Skills-trained AI for intelligent candidate recommendations
+              - generic [ref=e472]: —
+              - img [ref=e474]
+              - img [ref=e477]
+            - generic [ref=e479]:
+              - paragraph [ref=e481]: Advanced filters & free text search
+              - generic [ref=e483]: —
+              - img [ref=e485]
+              - img [ref=e488]
+            - generic [ref=e490]:
+              - paragraph [ref=e492]: Saved candidate search preferences
+              - generic [ref=e494]: —
+              - img [ref=e496]
+              - img [ref=e499]
+            - generic [ref=e501]:
+              - paragraph [ref=e503]: Candidate shortlists
+              - generic [ref=e505]: —
+              - img [ref=e507]
+              - img [ref=e510]
+            - generic [ref=e512]:
+              - paragraph [ref=e514]: Candidate invitations for assessments and interviews
+              - generic [ref=e516]: —
+              - img [ref=e518]
+              - img [ref=e521]
+          - generic [ref=e523] [cursor=pointer]:
+            - paragraph [ref=e524]: TestGorilla Assessments (for technical hiring)
+            - img [ref=e525]
+          - generic:
+            - generic:
+              - generic [ref=e527]:
+                - paragraph [ref=e529]: Built-in coding IDE (Integrated Development Environment)
+                - generic [ref=e531]: —
+                - img [ref=e533]
+                - img [ref=e536]
+              - generic [ref=e538]:
+                - generic [ref=e539]:
+                  - paragraph [ref=e540]: Code playback function
+                  - img [ref=e543] [cursor=pointer]
+                - generic [ref=e546]: —
+                - img [ref=e548]
+                - img [ref=e551]
+              - generic [ref=e553]:
+                - generic [ref=e554]:
+                  - paragraph [ref=e555]: Automated scoring
+                  - img [ref=e558] [cursor=pointer]
+                - generic [ref=e561]: —
+                - img [ref=e563]
+                - img [ref=e566]
+              - generic [ref=e568]:
+                - paragraph [ref=e570]: Algorithmic thinking challenges
+                - generic [ref=e572]: —
+                - img [ref=e574]
+                - img [ref=e577]
+              - generic [ref=e579]:
+                - paragraph [ref=e581]: Debugging challenges
+                - generic [ref=e583]: —
+                - img [ref=e585]
+                - img [ref=e588]
+              - generic [ref=e590]:
+                - paragraph [ref=e592]: Language-specific concept challenges
+                - generic [ref=e594]: —
+                - img [ref=e596]
+                - img [ref=e599]
+              - generic [ref=e601]:
+                - paragraph [ref=e603]: Custom coding challenges
+                - generic [ref=e605]: —
+                - generic [ref=e607]: —
+                - img [ref=e609]
+          - generic [ref=e611] [cursor=pointer]:
+            - paragraph [ref=e612]: Candidate management
+            - img [ref=e613]
+          - generic:
+            - generic:
+              - generic [ref=e615]:
+                - paragraph [ref=e617]: Customized invitation and rejection emails
+                - generic [ref=e619]: —
+                - img [ref=e621]
+                - img [ref=e624]
+              - generic [ref=e626]:
+                - generic [ref=e627]:
+                  - paragraph [ref=e628]: Manual and automated bulk actions to manage candidates
+                  - img [ref=e631] [cursor=pointer]
+                - generic [ref=e634]: —
+                - img [ref=e636]
+                - img [ref=e639]
+              - generic [ref=e641]:
+                - generic [ref=e642]:
+                  - paragraph [ref=e643]: Your company’s intro or outro video
+                  - img [ref=e646] [cursor=pointer]
+                - generic [ref=e649]: —
+                - img [ref=e651]
+                - img [ref=e654]
+              - generic [ref=e656]:
+                - generic [ref=e657]:
+                  - paragraph [ref=e658]: Create source-specific candidate invite links
+                  - img [ref=e661] [cursor=pointer]
+                - generic [ref=e664]: —
+                - generic [ref=e666]: —
+                - img [ref=e668]
+          - generic [ref=e670] [cursor=pointer]:
+            - paragraph [ref=e671]: Reporting and analytics
+            - img [ref=e672]
+          - generic:
+            - generic:
+              - generic [ref=e674]:
+                - generic [ref=e675]:
+                  - paragraph [ref=e676]: Account and assessment level dashboards
+                  - img [ref=e679] [cursor=pointer]
+                - generic [ref=e682]: —
+                - img [ref=e684]
+                - img [ref=e687]
+              - generic [ref=e689]:
+                - paragraph [ref=e691]: Export data in CSV and PDF formats
+                - img [ref=e693]
+                - img [ref=e696]
+                - img [ref=e699]
+              - generic [ref=e701]:
+                - paragraph [ref=e703]: Candidate results rating and notes
+                - img [ref=e705]
+                - img [ref=e708]
+                - img [ref=e711]
+              - generic [ref=e713]:
+                - paragraph [ref=e715]: Company-specific validity test
+                - generic [ref=e717]: —
+                - generic [ref=e719]: —
+                - paragraph [ref=e721]: Talk to us
+          - generic [ref=e722] [cursor=pointer]:
+            - paragraph [ref=e723]: Behavior monitoring
+            - img [ref=e724]
+          - generic:
+            - generic:
+              - generic [ref=e726]:
+                - paragraph [ref=e728]: Candidate behavior monitor
+                - img [ref=e730]
+                - img [ref=e733]
+                - img [ref=e736]
+              - generic [ref=e738]:
+                - paragraph [ref=e740]: Webcam snapshots
+                - img [ref=e742]
+                - img [ref=e745]
+                - img [ref=e748]
+              - generic [ref=e750]:
+                - paragraph [ref=e752]: Disabled copy/paste
+                - img [ref=e754]
+                - img [ref=e757]
+                - img [ref=e760]
+              - generic [ref=e762]:
+                - paragraph [ref=e764]: Multiple attempt prevention
+                - img [ref=e766]
+                - img [ref=e769]
+                - img [ref=e772]
+              - generic [ref=e774]:
+                - paragraph [ref=e776]: Logging of candidate location
+                - img [ref=e778]
+                - img [ref=e781]
+                - img [ref=e784]
+              - generic [ref=e786]:
+                - paragraph [ref=e788]: Full-screen mode
+                - img [ref=e790]
+                - img [ref=e793]
+                - img [ref=e796]
+              - generic [ref=e798]:
+                - paragraph [ref=e800]: Large question pool per test
+                - img [ref=e802]
+                - img [ref=e805]
+                - img [ref=e808]
+              - generic [ref=e810]:
+                - paragraph [ref=e812]: Hidden questions & answers
+                - img [ref=e814]
+                - img [ref=e817]
+                - img [ref=e820]
+              - generic [ref=e822]:
+                - paragraph [ref=e824]: Question exposure monitoring
+                - img [ref=e826]
+                - img [ref=e829]
+                - img [ref=e832]
+              - generic [ref=e834]:
+                - paragraph [ref=e836]: Timed tests
+                - img [ref=e838]
+                - img [ref=e841]
+                - img [ref=e844]
+              - generic [ref=e846]:
+                - paragraph [ref=e848]: Honesty agreement
+                - img [ref=e850]
+                - img [ref=e853]
+                - img [ref=e856]
+          - generic [ref=e858] [cursor=pointer]:
+            - paragraph [ref=e859]: Advanced features
+            - img [ref=e860]
+          - generic:
+            - generic:
+              - generic [ref=e862]:
+                - paragraph [ref=e864]: Brand assessments with your logo and color
+                - generic [ref=e866]: —
+                - generic [ref=e868]: —
+                - img [ref=e870]
+              - generic [ref=e872]:
+                - paragraph [ref=e874]: Admin/recruiter seats
+                - paragraph [ref=e876]: "1"
+                - paragraph [ref=e878]: "2"
+                - paragraph [ref=e880]: Unlimited
+              - generic [ref=e881]:
+                - paragraph [ref=e883]: Hiring manager seats
+                - paragraph [ref=e885]: Unlimited
+                - paragraph [ref=e887]: Unlimited
+                - paragraph [ref=e889]: Unlimited
+              - generic [ref=e890]:
+                - paragraph [ref=e892]: Manage user access to assessments
+                - generic [ref=e894]: —
+                - generic [ref=e896]: —
+                - img [ref=e898]
+              - generic [ref=e900]:
+                - generic [ref=e901]:
+                  - paragraph [ref=e902]: Applicant Tracking Systems (ATS) integrations
+                  - img [ref=e905] [cursor=pointer]
+                - generic [ref=e908]: —
+                - generic [ref=e910]: —
+                - img [ref=e912]
+              - generic [ref=e914]:
+                - generic [ref=e915]:
+                  - paragraph [ref=e916]: API access
+                  - img [ref=e919] [cursor=pointer]
+                - generic [ref=e922]: —
+                - generic [ref=e924]: —
+                - img [ref=e926]
+              - generic [ref=e928]:
+                - paragraph [ref=e930]: Single sign on (SSO)
+                - paragraph [ref=e932]: Microsoft
+                - paragraph [ref=e934]: Google, Microsoft
+                - paragraph [ref=e936]: Google, Microsoft
+          - generic [ref=e937] [cursor=pointer]:
+            - paragraph [ref=e938]: Customer support
+            - img [ref=e939]
+          - generic:
+            - generic:
+              - generic [ref=e941]:
+                - paragraph [ref=e943]: Help and support for your candidates
+                - img [ref=e945]
+                - img [ref=e948]
+                - img [ref=e951]
+              - generic [ref=e953]:
+                - paragraph [ref=e955]: Help center
+                - img [ref=e957]
+                - img [ref=e960]
+                - img [ref=e963]
+              - generic [ref=e965]:
+                - paragraph [ref=e967]: Email support
+                - img [ref=e969]
+                - img [ref=e972]
+                - img [ref=e975]
+              - generic [ref=e977]:
+                - paragraph [ref=e979]: Live chat support
+                - img [ref=e981]
+                - img [ref=e984]
+                - img [ref=e987]
+              - generic [ref=e989]:
+                - generic [ref=e990]:
+                  - paragraph [ref=e991]: Dedicated customer success advisor (CSA)
+                  - img [ref=e994] [cursor=pointer]
+                - generic [ref=e997]: —
+                - generic [ref=e999]: —
+                - img [ref=e1001]
+              - generic [ref=e1003]:
+                - paragraph [ref=e1005]: Onboarding and rollout support
+                - generic [ref=e1007]: —
+                - generic [ref=e1009]: —
+                - img [ref=e1011]
+              - generic [ref=e1013]:
+                - paragraph [ref=e1015]: Bespoke strategic check-ins and regular follow-ups
+                - generic [ref=e1017]: —
+                - generic [ref=e1019]: —
+                - img [ref=e1021]
+          - generic [ref=e1023] [cursor=pointer]:
+            - paragraph [ref=e1024]: Security and compliance
+            - img [ref=e1025]
+          - generic:
+            - generic:
+              - generic [ref=e1027]:
+                - paragraph [ref=e1029]: GDPR compliant
+                - img [ref=e1031]
+                - img [ref=e1034]
+                - img [ref=e1037]
+              - generic [ref=e1039]:
+                - paragraph [ref=e1041]: SOC 2-Type II compliant
+                - img [ref=e1043]
+                - img [ref=e1046]
+                - img [ref=e1049]
+    - generic [ref=e1052]:
+      - heading "FAQS" [level=2] [ref=e1054]
+      - generic [ref=e1055]:
+        - button "How does TestGorilla’s pricing work?" [ref=e1057] [cursor=pointer]:
+          - img [ref=e1058]
+          - generic [ref=e1060]: How does TestGorilla’s pricing work?
+        - button "What happens if a candidate doesn't complete the assessment?" [ref=e1062] [cursor=pointer]:
+          - img [ref=e1063]
+          - generic [ref=e1065]: What happens if a candidate doesn't complete the assessment?
+        - button "What is TestGorilla Sourcing?" [ref=e1067] [cursor=pointer]:
+          - img [ref=e1068]
+          - generic [ref=e1070]: What is TestGorilla Sourcing?
+        - button "Which Applicant Tracking Systems can integrate with TestGorilla?" [ref=e1072] [cursor=pointer]:
+          - img [ref=e1073]
+          - generic [ref=e1075]: Which Applicant Tracking Systems can integrate with TestGorilla?
+        - button "How does TestGorilla protect my data?" [ref=e1077] [cursor=pointer]:
+          - img [ref=e1078]
+          - generic [ref=e1080]: How does TestGorilla protect my data?
+      - generic [ref=e1081]:
+        - button "Which assessment tools are free?" [ref=e1083] [cursor=pointer]:
+          - img [ref=e1084]
+          - generic [ref=e1086]: Which assessment tools are free?
+        - button "What is TestGorilla Assessments?" [ref=e1088] [cursor=pointer]:
+          - img [ref=e1089]
+          - generic [ref=e1091]: What is TestGorilla Assessments?
+        - button "Can I use Sourcing and Assessment products separately?" [ref=e1093] [cursor=pointer]:
+          - img [ref=e1094]
+          - generic [ref=e1096]: Can I use Sourcing and Assessment products separately?
+        - button "What type of support do you offer?" [ref=e1098] [cursor=pointer]:
+          - img [ref=e1099]
+          - generic [ref=e1101]: What type of support do you offer?
+        - button "Can I get a discount?" [ref=e1103] [cursor=pointer]:
+          - img [ref=e1104]
+          - generic [ref=e1106]: Can I get a discount?
+    - contentinfo [ref=e1107]:
+      - generic [ref=e1108]:
+        - link "TestGorilla Logo" [ref=e1110] [cursor=pointer]:
+          - /url: /
+          - img "TestGorilla Logo" [ref=e1111]
+        - generic [ref=e1112]:
+          - link "Product updates" [ref=e1113] [cursor=pointer]:
+            - /url: https://support.testgorilla.com/hc/en-us/sections/9025202774811--Roadmap-and-release-notes
+            - generic [ref=e1114]: Product updates
+          - link "Help center" [ref=e1115] [cursor=pointer]:
+            - /url: https://support.testgorilla.com/hc/en-us
+            - generic [ref=e1116]: Help center
+          - link "For candidates" [ref=e1117] [cursor=pointer]:
+            - /url: https://candidates.testgorilla.com/hc/en-us
+            - generic [ref=e1118]: For candidates
+          - link "Sitemap" [ref=e1119] [cursor=pointer]:
+            - /url: /sitemap/
+            - generic [ref=e1120]: Sitemap
+          - link "Legal stuff" [ref=e1121] [cursor=pointer]:
+            - /url: /terms/
+            - generic [ref=e1122]: Legal stuff
+          - link "Partnerships" [ref=e1123] [cursor=pointer]:
+            - /url: /partnerships/
+            - generic [ref=e1124]: Partnerships
+        - generic [ref=e1125]:
+          - link "Careers" [ref=e1126] [cursor=pointer]:
+            - /url: /careers/
+            - generic [ref=e1127]: Careers
+          - link "Blog" [ref=e1128] [cursor=pointer]:
+            - /url: /blog/
+            - generic [ref=e1129]: Blog
+          - link "Privacy policy" [ref=e1130] [cursor=pointer]:
+            - /url: /privacy-policy/
+            - generic [ref=e1131]: Privacy policy
+          - link "Contact" [ref=e1132] [cursor=pointer]:
+            - /url: https://support.testgorilla.com/hc/en-us/requests/new
+            - generic [ref=e1133]: Contact
+          - link "Press room" [ref=e1134] [cursor=pointer]:
+            - /url: /press-room/
+            - generic [ref=e1135]: Press room
+        - generic [ref=e1141]:
+          - generic [ref=e1142]:
+            - link "Facebook" [ref=e1143] [cursor=pointer]:
+              - /url: https://www.facebook.com/testgorilla/
+              - img "Facebook" [ref=e1145]
+            - link "Instagram" [ref=e1146] [cursor=pointer]:
+              - /url: https://www.instagram.com/testgorilla_official/
+              - img "Instagram" [ref=e1148]
+            - link "LinkedIn" [ref=e1149] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/testgorilla/
+              - img "LinkedIn" [ref=e1151]
+          - generic [ref=e1152]: © TestGorilla 2026. All rights reserved.
+  - alert [ref=e1153]
+  - iframe [ref=e1154]:
+    
+  - iframe [ref=e1159]:
+    - generic [ref=f44e2]:
+      - button "Close" [ref=f44e4] [cursor=pointer]:
+        - img [ref=f44e5]
+      - generic [ref=f44e19]:
+        - text: 1 in 2 hiring managers prioritize AI fluency yet
+        - strong [ref=f44e20]: 59% have made a bad AI hire
+        - text: .
+        - link "→ Read more in the \"State of Hiring for AI fluency\" report" [ref=f44e22] [cursor=pointer]:
+          - /url: https://cta-service-cms2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLJZ%2BOpMSrPCJPNSt7WAnMZ7BGtooy26JjpOF8Xn5lsHJw6%2F4aWGlw2RKgwvCFyUgePaT1flFStuXHz9LDl5fDPKbyaaCPS4SDHzo%2BRfSkCNiNVh2WD1fKfW%2FNad%2Byv3RmVPUy7bzIGhccVy4S%2BddgoyA%2BpmocyPqoNF6n2mRj0%2BB6LmMhG0MjatgFcBqAi3q4ulSYPbh66gDLEspPctXZ%2ByD7WpvquHSA%3D%3D&portalId=6821985&webInteractiveId=552249631063&webInteractiveContentId=211982742322&containerType=BANNER&campaignId=7942254b-4231-48d8-85e0-f8d4a2228418&pageUrl=https%3A%2F%2Fwww.testgorilla.com%2Fpricing%2F&pageTitle=Pricing+-+Sign+up+for+free+-+TestGorilla&referrer=&userAgent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F148.0.0.0+Safari%2F537.36&hutk=0b43153d737a4ceb5c99b7e2ca3f1a26&hssc=176089277.4.1779901952685&hstc=176089277.0b43153d737a4ceb5c99b7e2ca3f1a26.1779901952685.1779901952685.1779901952685.1&hsfp=ea719536d95e63192b974baace38b166
+  - region "Chat Widget" [ref=e1155]:
+    - iframe [ref=e1156]:
+      - generic [ref=f46e2]:
+        - generic [ref=f46e6]:
+          - button "Open live chat" [ref=f46e7]:
+            - img "Avatar of Alex Morgan" [ref=f46e13]
+            - generic [ref=f46e14]: Hi there 👋
+          - button "Close welcome page" [ref=f46e15]:
+            - img [ref=f46e17]
+        - button "Open live chat" [ref=f46e24]:
+          - img [ref=f46e27]
+          - img [ref=f46e34]
+  - button "Open cookie settings widget" [ref=e1161] [cursor=pointer]:
+    - img [ref=e1162]

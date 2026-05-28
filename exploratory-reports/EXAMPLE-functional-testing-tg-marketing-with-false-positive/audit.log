@@ -1,0 +1,53 @@
+[17:12:06] [info] SESSION: initialized — skill=functional-testing, feature=www-tg-marketing
+[17:12:08] [info] SESSION: mission — Test www.testgorilla.com marketing site to find functional and UX gaps (read-only)
+[17:12:08] [info] SESSION: scope-guard — NO form submissions, NO account creation, NO state changes
+[17:12:08] [info] SESSION: scenarios — S1: homepage nav (LIST), S2: test library (INPUT+LIST), S3: pricing (STATE)
+[17:12:10] [info] ACT: open browser (headless, 1280x720)
+[17:12:10] [warn] SESSION: ambiguous host on goto — https://www.testgorilla.com (awaiting user confirmation)
+[17:12:11] [info] EVIDENCE: screenshot → 01-01-homepage-baseline.png
+[17:12:29] [warn] SESSION: production override accepted — https://www.testgorilla.com — justification: user authorized read-only testing of marketing site
+[17:12:32] [info] NAV: goto https://www.testgorilla.com → https://www.testgorilla.com/ ("TestGorilla: AI-Powered Talent Sourcing & Skills Assessments"); console: 7 errors, 0 warnings
+[17:12:32] [info] SNAPSHOT: saved → 01-root.yaml
+[17:12:33] [info] EVIDENCE: screenshot → 01-homepage-baseline.png
+[17:13:11] [info] ACT: click 'Allow all' on cookie banner (ref=e19)
+[17:13:12] [info] SNAPSHOT: saved → 02-after-cookies.yaml
+[17:13:12] [info] SESSION: S1 — Primary navigation (LIST profile; Naïve+Distracted hats)
+[17:13:20] [info] ACT: click 'Pricing' link (ref=e42)
+[17:13:24] [warn] SESSION: production override accepted — https://www.testgorilla.com/pricing/ — justification: continued read-only browse
+[17:13:26] [info] NAV: goto https://www.testgorilla.com/pricing/ → https://www.testgorilla.com/pricing/ ("Pricing - Sign up for free - TestGorilla"); console: 12 errors, 1 warnings
+[17:13:27] [info] SNAPSHOT: saved → 03-pricing.yaml
+[17:13:29] [info] CHECK: functional-NAV-01 — PASS — Pricing link navigates to /pricing/ (/pricing/)
+[17:13:30] [info] EVIDENCE: screenshot → 02-pricing-page.png
+[17:14:04] [info] SESSION: S2 — Test library discovery (INPUT+LIST; Naïve+Power hats)
+[17:14:04] [warn] SESSION: production override accepted — https://www.testgorilla.com/test-library/ — justification: continued read-only browse — test library page
+[17:14:06] [info] NAV: goto https://www.testgorilla.com/test-library/ → https://www.testgorilla.com/test-library/ ("Test Library | Pre-Employment Tests for all Job Roles - TestGorilla"); console: 11 errors, 0 warnings
+[17:14:07] [info] SNAPSHOT: saved → 04-test-library.yaml
+[17:14:08] [info] EVIDENCE: screenshot → 03-test-library-landing.png
+[17:14:13] [info] CHECK: functional-NAV-02 — PASS — Test library reachable at /test-library/
+[17:15:02] [info] ACT: fill search='' + Enter (P2.1: empty search submit)
+[17:15:04] [info] SNAPSHOT: saved → 05-empty-search.yaml
+[17:15:06] [info] CHECK: functional-INPUT-01 — PASS — empty search submit does not crash (search=)
+[17:15:15] [info] ACT: fill search='<script>alert(1)</script>' + Enter (P2.2: special char)
+[17:15:18] [info] EVIDENCE: screenshot → 04-special-char-search.png
+[17:15:18] [info] CHECK: functional-INPUT-XSS-01 — FAIL — Reflected XSS via search input
+[17:15:19] [info] SESSION: finding recorded — 001 (Critical) — Reflected XSS via search input
+[17:15:23] [info] ACT: fill search=1000 chars + Enter (P2.3: very long query)
+[17:15:26] [info] CHECK: functional-INPUT-03 — PASS — Long query (1000 chars) accepted without crash
+[17:15:34] [info] ACT: fill search='🦍🍌' + Enter (P2.4: emoji)
+[17:15:36] [info] CHECK: functional-INPUT-04 — PASS — Emoji search handled
+[17:16:50] [info] SESSION: 001 — needs-retest after expert verification: false positive (no alert fired; <script> appears only as textbox value)
+[17:16:50] [info] SESSION: S3 — Pricing page interaction (STATE; Naïve+Returning hats)
+[17:16:50] [warn] SESSION: production override accepted — https://www.testgorilla.com/pricing/ — justification: continued read-only browse — pricing page
+[17:16:53] [info] NAV: goto https://www.testgorilla.com/pricing/ → https://www.testgorilla.com/pricing/ ("Pricing - Sign up for free - TestGorilla"); console: 14 errors, 1 warnings
+[17:16:54] [info] SNAPSHOT: saved → 09-pricing.yaml
+[17:16:55] [info] EVIDENCE: screenshot → 05-pricing-page-fresh.png
+[17:17:24] [info] ACT: click credits selector '250 credits/year' (ref=e135)
+[17:17:26] [info] SNAPSHOT: saved → 10-credits-dropdown.yaml
+[17:17:35] [info] ACT: click currency selector 'EUR €' (ref=e51)
+[17:17:37] [info] SNAPSHOT: saved → 11-currency-dropdown.yaml
+[17:17:37] [info] CHECK: functional-STR-01 — PASS — Pricing page exposes 4 plans (Free, Core, Plus, Enterprise) — documentation/label consistency
+[17:17:38] [info] EVIDENCE: screenshot → 06-pricing-final-view.png
+[17:17:38] [info] DATA: console errors observed → 7 on homepage, 11-12 on /test-library/, 12 on /pricing/ — investigation deferred to performance-testing session
+[17:17:41] [info] ACT: close browser
+[17:17:41] [info] SESSION: completed — 6 passed, 1 failed, 4 steps
+[17:18:11] [info] SESSION: counter correction — Findings (Critical) restored to 1 (status='needs-retest' reflects verification state, severity reflects impact-if-real)

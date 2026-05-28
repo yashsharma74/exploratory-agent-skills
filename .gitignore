@@ -1,6 +1,18 @@
-exploratory-reports/
-settings.json
-settings.local.json
-.playwright-mcp
-.playwright-cli
-.claude/skills/playwright-cli/
+# Session output (each run writes a timestamped folder here)
+exploratory-reports/*
+!exploratory-reports/.gitkeep
+!exploratory-reports/EXAMPLE-*
+
+# Playwright CLI runtime artifacts
+.playwright-cli/
+.playwright-mcp/
+.playwright/
+
+# Claude Code: user-specific settings stay local; project settings.json is tracked
+.claude/settings.local.json
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

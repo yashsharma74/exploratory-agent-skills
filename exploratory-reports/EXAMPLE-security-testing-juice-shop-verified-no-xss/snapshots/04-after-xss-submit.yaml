@@ -1,0 +1,69 @@
+- generic:
+  - dialog "cookieconsent" [ref=e1]:
+    - generic [ref=e2]:
+      - text: This website uses fruit cookies to ensure you get the juiciest tracking experience.
+      - button "learn more about cookies" [ref=e3] [cursor=pointer]: But me wait!
+    - button "dismiss cookie message" [ref=e5] [cursor=pointer]: Me want it!
+  - generic [ref=e9]:
+    - generic [ref=e12]:
+      - button [ref=e76] [cursor=pointer]:
+        - img [ref=e14]: menu
+      - button [ref=e77]:
+        - generic [ref=e19]:
+          - img [ref=e78]
+          - generic [ref=e21]: OWASP Juice Shop
+      - generic [ref=e79]:
+        - button [ref=e80] [cursor=pointer]:
+          - img [ref=e27]: search
+        - img [ref=e30]: search
+        - textbox [active] [ref=e31]: <iframe src="javascript:window.__XSS_FIRED__=Date.now()"></iframe>
+        - button [ref=e81] [cursor=pointer]:
+          - img [ref=e33]: close
+      - generic [ref=e36]:
+        - button [ref=e82]:
+          - img [ref=e38]: account_circle
+          - generic [ref=e39]: Account
+        - button [ref=e83]:
+          - img [ref=e43]: shopping_cart
+          - generic [ref=e44]:
+            - text: Your Basket
+            - generic [ref=e45]: "0"
+        - button [ref=e84]:
+          - img [ref=e49]: language
+          - generic [ref=e50]: EN
+    - main [ref=e128]:
+      - generic [ref=e130]: All Products
+      - group [ref=e131]:
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - generic [ref=e135]: "Items per page:"
+            - generic [ref=e136]: "15"
+          - generic [ref=e137]:
+            - status [ref=e138]: 0 of 0
+            - button [disabled] [ref=e139]:
+              - img [ref=e140]
+            - button [disabled] [ref=e144]:
+              - img [ref=e145]
+  - dialog [ref=e103]:
+    - generic [ref=e106]:
+      - heading "Welcome to OWASP Juice Shop!" [level=1] [ref=e107]
+      - generic [ref=e108]:
+        - paragraph [ref=e109]:
+          - text: Being a web application with a vast number of intended security vulnerabilities, the
+          - strong [ref=e110]: OWASP Juice Shop
+          - text: "is supposed to be the opposite of a best practice or template application for web developers: It is an awareness, training, demonstration and exercise tool for security risks in modern web applications. The"
+          - strong [ref=e111]: OWASP Juice Shop
+          - text: is an open-source project hosted by the non-profit
+          - link "Open Worldwide Application Security Project (OWASP)" [ref=e112] [cursor=pointer]:
+            - /url: https://owasp.org
+          - text: and is developed and maintained by volunteers. Check out the link below for more information and documentation on the project.
+        - heading "https://owasp-juice.shop" [level=1] [ref=e113]:
+          - link "https://owasp-juice.shop" [ref=e114] [cursor=pointer]:
+            - /url: https://owasp-juice.shop
+      - generic [ref=e115]:
+        - button "Help getting started" [ref=e116]:
+          - img [ref=e117]: school
+          - generic [ref=e118]: Help getting started
+        - button "Close Welcome Banner" [ref=e121] [cursor=pointer]:
+          - img [ref=e122]: visibility_off
+          - generic [ref=e123]: Dismiss

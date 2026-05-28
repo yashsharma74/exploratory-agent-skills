@@ -1,0 +1,324 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e22]:
+    - generic [ref=e24]:
+      - button "EN" [ref=e26] [cursor=pointer]:
+        - img [ref=e27]
+        - text: EN
+      - generic [ref=e29]:
+        - link "Help" [ref=e30] [cursor=pointer]:
+          - /url: https://support.testgorilla.com/
+        - link "Log in" [ref=e31] [cursor=pointer]:
+          - /url: https://app.testgorilla.com/?language=en
+    - generic [ref=e33]:
+      - link "TestGorilla Logo" [ref=e34] [cursor=pointer]:
+        - /url: /
+        - img "TestGorilla Logo" [ref=e35]
+      - generic [ref=e36]:
+        - button "Products" [ref=e37] [cursor=pointer]:
+          - generic [ref=e38]:
+            - generic [ref=e39]: Products
+            - img [ref=e40]
+        - link "Pricing" [ref=e42] [cursor=pointer]:
+          - /url: /pricing/
+        - button "Resources" [ref=e43] [cursor=pointer]:
+          - generic [ref=e44]:
+            - generic [ref=e45]: Resources
+            - img [ref=e46]
+        - button "Job seekers" [ref=e48] [cursor=pointer]:
+          - generic [ref=e49]:
+            - generic [ref=e50]: Job seekers
+            - img [ref=e51]
+      - generic [ref=e53]:
+        - link "Try for free" [ref=e55] [cursor=pointer]:
+          - /url: https://app.testgorilla.com/register/customer?language=en
+        - link "Get a free demo" [ref=e57] [cursor=pointer]:
+          - /url: /demo-signup/
+    - generic [ref=e60]:
+      - heading "Hire for real skills, IGNORE AI resumes" [level=1] [ref=e61]
+      - paragraph [ref=e62]: De-risk every hire with science-backed assessments. Measure how candidates think, solve, and perform in an AI-powered world.
+      - generic [ref=e63]:
+        - textbox "Simply enter your work email and…" [ref=e64]
+        - button "Try for free!" [ref=e66] [cursor=pointer]
+      - link "or talk to sales" [ref=e68] [cursor=pointer]:
+        - /url: /demo-signup/
+    - heading "Your competitors are already hiring this way" [level=2] [ref=e74]
+    - generic [ref=e85]:
+      - generic [ref=e86]:
+        - heading "Stop guessing, start measuring AI fluency" [level=2] [ref=e87]
+        - paragraph [ref=e88]: 95% of companies now require AI fluency. But the methods used to assess candidates were never built for it. Shift from self-reported usage and tool name-checking, to genuine AI fluency assessments and interviews.
+        - paragraph [ref=e89]: 5 pillar framework. Scientifically validated.
+        - paragraph
+      - link "Explore AI fluency" [ref=e92] [cursor=pointer]:
+        - /url: /ai-fluency/
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - heading "THE STATE OF HIRING FOR AI FLUENCY - REPORT 2026" [level=2] [ref=e99]
+        - paragraph [ref=e100]: We surveyed senior hiring leaders across the US and UK to understand how organizations are defining, requiring, and assessing AI fluency. 95% list it as a hiring requirement. 71% have formally defined it. And yet 59% have still made a bad AI hire. You included.
+        - paragraph [ref=e101]: 3 core tensions, and a framework to implement.
+      - link "Read the report now" [ref=e104] [cursor=pointer]:
+        - /url: /talent-discovery/state-hiring-ai-fluency/
+    - generic [ref=e106]:
+      - heading "Where skills meet their match" [level=2] [ref=e108]
+      - generic [ref=e109]:
+        - paragraph [ref=e114]: candidates assessed each year
+        - paragraph [ref=e119]: talent professionals use TestGorilla
+        - paragraph [ref=e124]: skills-tested talent pool
+    - generic [ref=e128]:
+      - 'heading "Assessments: Let their skills do the talking" [level=2] [ref=e129]'
+      - paragraph [ref=e131]: Build talent assessments in seconds with AI. Pick the tools that matter. We’ll handle the scoring. End up with a fair, data-led shortlist that takes your talent further.
+    - generic [ref=e133]:
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - button "350+ skills tests" [ref=e136] [cursor=pointer]:
+            - img [ref=e137]
+            - generic [ref=e139]: 350+ skills tests
+          - paragraph [ref=e143]:
+            - text: Scientifically designed skills tests that reveal what candidates can actually do. Browse the
+            - link "full test library" [ref=e144] [cursor=pointer]:
+              - /url: /test-library/
+            - text: .
+        - button "AI video interviews" [ref=e146] [cursor=pointer]:
+          - img [ref=e147]
+          - generic [ref=e149]: AI video interviews
+        - button "AI resume scoring" [ref=e151] [cursor=pointer]:
+          - img [ref=e152]
+          - generic [ref=e154]: AI resume scoring
+        - button "Custom questions" [ref=e156] [cursor=pointer]:
+          - img [ref=e157]
+          - generic [ref=e159]: Custom questions
+        - button "Custom tests" [ref=e161] [cursor=pointer]:
+          - img [ref=e162]
+          - generic [ref=e164]: Custom tests
+        - button "Auto-scoring" [ref=e166] [cursor=pointer]:
+          - img [ref=e167]
+          - generic [ref=e169]: Auto-scoring
+      - link "See how Assessments work" [ref=e174] [cursor=pointer]:
+        - /url: /assessments/
+    - generic [ref=e178]:
+      - 'heading "NEW: INTRODUCING AI VIDEO INTERVIEWS" [level=2] [ref=e179]'
+      - generic [ref=e182] [cursor=pointer]: Meet the avatar
+    - generic [ref=e184]:
+      - img "Blog thumbnail The 5 best AI video interview tools graphic" [ref=e187]
+      - generic [ref=e189]:
+        - paragraph [ref=e190]: "Candidate volume is rising. Resumes look perfect. Screening calls don’t fix it. They just slow you down. Our interviews are built to cut through the noise and give you real signal at scale:"
+        - list [ref=e191]:
+          - listitem [ref=e192]:
+            - paragraph [ref=e193]: AI video interviews with an avatar
+          - listitem [ref=e194]:
+            - paragraph [ref=e195]: Structured video interviews
+          - listitem [ref=e196]:
+            - paragraph [ref=e197]: AI audio interviews
+        - paragraph [ref=e198]: Every candidate is assessed the same way. Same questions. Same criteria. Same depth.
+        - paragraph [ref=e199]: You get a shortlist worth your time.
+    - iframe [ref=e207]:
+      - generic [ref=f6e4]:
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - img
+          - generic:
+            - img
+            - generic: Playing in picture-in-picture
+        - generic:
+          - generic:
+            - button "Play" [ref=f6e12] [cursor=pointer]:
+              - img [ref=f6e13]
+              - generic:
+                - generic: Play
+            - generic [ref=f6e16]:
+              - generic [ref=f6e17]:
+                - slider "Progress Bar" [ref=f6e18] [cursor=pointer]
+                - generic:
+                  - generic:
+                    - generic: 00:00
+                - generic [ref=f6e23]: 00:48
+              - generic [ref=f6e24]:
+                - generic [ref=f6e25]:
+                  - generic [ref=f6e26]:
+                    - button:
+                      - img
+                  - slider
+                - generic:
+                  - button:
+                    - img
+                    - generic: Settings
+                - generic:
+                  - button:
+                    - img
+                    - generic: Fullscreen
+                - button "Show controls" [ref=f6e28] [cursor=pointer]:
+                  - img [ref=f6e29]
+                  - generic:
+                    - generic: Show controls
+    - generic [ref=e209]:
+      - heading "See what happens when you put skills first" [level=2] [ref=e211]
+      - generic [ref=e212]:
+        - generic [ref=e213]:
+          - generic [ref=e214]: 2 in 3
+          - generic [ref=e215]:
+            - paragraph [ref=e216]: companies reduced their mis-hires
+            - paragraph [ref=e217]:
+              - link "Report" [ref=e218] [cursor=pointer]:
+                - /url: /skills-based-hiring/state-of-skills-based-hiring-2025/
+        - generic [ref=e219]:
+          - generic [ref=e220]: 400%
+          - generic [ref=e221]:
+            - paragraph [ref=e222]: more candidates assessed
+            - paragraph [ref=e223]:
+              - link "Case study" [ref=e224] [cursor=pointer]:
+                - /url: /case-studies/dyninno-group-increases-recruitment-productivity-by-400-percent/
+        - generic [ref=e225]:
+          - generic [ref=e226]: 80%
+          - generic [ref=e227]:
+            - paragraph [ref=e228]: reduction in cost and time-to-hire
+            - paragraph [ref=e229]:
+              - link "Case study" [ref=e230] [cursor=pointer]:
+                - /url: /case-studies/opinion-stage-cuts-hiring-time-by-80-percent/
+    - generic [ref=e235]:
+      - generic [ref=e236]:
+        - heading "POWERED BY AI, BACKED BY SCIENCE" [level=2] [ref=e237]
+        - paragraph [ref=e238]: Validated assessments built on decades of psychometric theory. Enhanced by AI. We make sure each hiring decision is rooted in real skills, real data, real science.
+      - generic [ref=e239]:
+        - link "Talk science to me" [ref=e241] [cursor=pointer]:
+          - /url: /science/
+        - link "Talk AI to me" [ref=e243] [cursor=pointer]:
+          - /url: /ai/
+    - generic [ref=e245]:
+      - heading "See talent discovery in action" [level=2] [ref=e246]
+      - generic [ref=e247]:
+        - img [ref=e249]
+        - img [ref=e255]
+        - iframe [ref=e264]:
+          - generic [ref=f7e4]:
+            - generic:
+              - generic:
+                - img
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - generic:
+                - img
+                - generic: Playing in picture-in-picture
+            - generic:
+              - generic:
+                - button "Play" [ref=f7e12] [cursor=pointer]:
+                  - img [ref=f7e13]
+                  - generic:
+                    - generic: Play
+                - generic [ref=f7e16]:
+                  - generic [ref=f7e17]:
+                    - slider "Progress Bar" [ref=f7e18] [cursor=pointer]
+                    - generic:
+                      - generic:
+                        - generic: 00:00
+                    - generic [ref=f7e23]: 00:59
+                  - generic [ref=f7e24]:
+                    - generic [ref=f7e25]:
+                      - generic [ref=f7e26]:
+                        - button:
+                          - img
+                      - slider
+                    - generic:
+                      - button:
+                        - img
+                        - generic: Settings
+                    - generic:
+                      - button:
+                        - img
+                        - generic: Fullscreen
+                    - button "Show controls" [ref=f7e28] [cursor=pointer]:
+                      - img [ref=f7e29]
+                      - generic:
+                        - generic: Show controls
+    - generic [ref=e268]:
+      - heading "We're transforming hiring for good" [level=2] [ref=e269]
+      - generic [ref=e270]:
+        - link "Book a demo" [ref=e272] [cursor=pointer]:
+          - /url: /demo-signup/
+        - link "Try for free!" [ref=e274] [cursor=pointer]:
+          - /url: https://app.testgorilla.com/register/customer?language=en
+    - contentinfo [ref=e275]:
+      - generic [ref=e276]:
+        - link "TestGorilla Logo" [ref=e278] [cursor=pointer]:
+          - /url: /
+          - img "TestGorilla Logo" [ref=e279]
+        - generic [ref=e280]:
+          - link "Product updates" [ref=e281] [cursor=pointer]:
+            - /url: https://support.testgorilla.com/hc/en-us/sections/9025202774811--Roadmap-and-release-notes
+            - generic [ref=e282]: Product updates
+          - link "Help center" [ref=e283] [cursor=pointer]:
+            - /url: https://support.testgorilla.com/hc/en-us
+            - generic [ref=e284]: Help center
+          - link "For candidates" [ref=e285] [cursor=pointer]:
+            - /url: https://candidates.testgorilla.com/hc/en-us
+            - generic [ref=e286]: For candidates
+          - link "Sitemap" [ref=e287] [cursor=pointer]:
+            - /url: /sitemap/
+            - generic [ref=e288]: Sitemap
+          - link "Legal stuff" [ref=e289] [cursor=pointer]:
+            - /url: /terms/
+            - generic [ref=e290]: Legal stuff
+          - link "Partnerships" [ref=e291] [cursor=pointer]:
+            - /url: /partnerships/
+            - generic [ref=e292]: Partnerships
+        - generic [ref=e293]:
+          - link "Careers" [ref=e294] [cursor=pointer]:
+            - /url: /careers/
+            - generic [ref=e295]: Careers
+          - link "Blog" [ref=e296] [cursor=pointer]:
+            - /url: /blog/
+            - generic [ref=e297]: Blog
+          - link "Privacy policy" [ref=e298] [cursor=pointer]:
+            - /url: /privacy-policy/
+            - generic [ref=e299]: Privacy policy
+          - link "Contact" [ref=e300] [cursor=pointer]:
+            - /url: https://support.testgorilla.com/hc/en-us/requests/new
+            - generic [ref=e301]: Contact
+          - link "Press room" [ref=e302] [cursor=pointer]:
+            - /url: /press-room/
+            - generic [ref=e303]: Press room
+        - generic [ref=e309]:
+          - generic [ref=e310]:
+            - link "Facebook" [ref=e311] [cursor=pointer]:
+              - /url: https://www.facebook.com/testgorilla/
+              - img "Facebook" [ref=e313]
+            - link "Instagram" [ref=e314] [cursor=pointer]:
+              - /url: https://www.instagram.com/testgorilla_official/
+              - img "Instagram" [ref=e316]
+            - link "LinkedIn" [ref=e317] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/testgorilla/
+              - img "LinkedIn" [ref=e319]
+          - generic [ref=e320]: © TestGorilla 2026. All rights reserved.
+  - iframe [ref=e321]:
+    
+  - alert [ref=e322]
+  - iframe [ref=e324]:
+    - generic [ref=f9e2]:
+      - button "Close" [ref=f9e4] [cursor=pointer]:
+        - img [ref=f9e5]
+      - generic [ref=f9e19]:
+        - text: 1 in 2 hiring managers prioritize AI fluency yet
+        - strong [ref=f9e20]: 59% have made a bad AI hire
+        - text: .
+        - link "→ Read more in the \"State of Hiring for AI fluency\" report" [ref=f9e22] [cursor=pointer]:
+          - /url: https://cta-service-cms2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLJZ%2BOpMSrPCJPNSt7WAnMZ7BGtooy26JjpOF8Xn5lsHJw6%2F4aWGlw2RKgwvCFyUgePaT1flFStuXHz9LDl5fDPKbyaaCPS4SDHzo%2BRfSkCNiNVh2WD1fKfW%2FNad%2Byv3RmVPUy7bzIGhccVy4S%2BddgoyA%2BpmocyPqoNF6n2mRj0%2BB6LmMhG0MjatgFcBqAi3q4ulSYPbh66gDLEspPctXZ%2ByD7WpvquHSA%3D%3D&portalId=6821985&webInteractiveId=552249631063&webInteractiveContentId=211982742322&containerType=BANNER&campaignId=7942254b-4231-48d8-85e0-f8d4a2228418&pageUrl=https%3A%2F%2Fwww.testgorilla.com%2F&pageTitle=TestGorilla%3A+AI-Powered+Talent+Sourcing+%26+Skills+Assessments&referrer=&userAgent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F148.0.0.0+Safari%2F537.36&hutk=0b43153d737a4ceb5c99b7e2ca3f1a26&hssc=176089277.1.1779901952685&hstc=176089277.0b43153d737a4ceb5c99b7e2ca3f1a26.1779901952685.1779901952685.1779901952685.1&hsfp=ea719536d95e63192b974baace38b166
+  - region "Chat Widget" [ref=e325]:
+    - iframe [ref=e326]:
+      - generic [ref=f13e2]:
+        - generic [ref=f13e6]:
+          - button "Open live chat" [ref=f13e7]:
+            - img "Avatar of Alex Morgan" [ref=f13e13]
+            - generic [ref=f13e14]: Hi there 👋
+          - button "Close welcome page" [ref=f13e15]:
+            - img [ref=f13e17]
+        - button "Open live chat" [ref=f13e24]:
+          - img [ref=f13e27]
+          - img [ref=f13e34]
+  - button "Open cookie settings widget" [ref=e328] [cursor=pointer]:
+    - img [ref=e329]

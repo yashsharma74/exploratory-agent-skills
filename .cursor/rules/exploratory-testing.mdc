@@ -1,0 +1,36 @@
+---
+description: Exploratory testing toolkit — Web Navigator drives a browser, _testing-conventions enforces universal rules, and one of functional/security/accessibility/performance-testing supplies methodology
+alwaysApply: true
+---
+
+# Exploratory Testing Toolkit
+
+This repository ships a structured exploratory-testing toolkit. See [`AGENTS.md`](../../AGENTS.md) for the full overview.
+
+## Composition rule
+
+For any testing session (when the user asks to test, navigate, evaluate, or explore a web app), load these three modules together:
+
+1. `skills/web-navigator/SKILL.md` and its references in `skills/web-navigator/references/`
+2. `skills/_testing-conventions/findings.md` and `skills/_testing-conventions/session.md`
+3. The active skill's `SKILL.md`: `functional-testing` / `security-testing` / `accessibility-testing` / `performance-testing`
+
+Then follow Web Navigator's 4-phase workflow:
+
+| Phase | What |
+|---|---|
+| 1 — Setup | `check-env.sh`, `check-host.sh`, apply defaults, ask only for missing target URL and active skill |
+| 2 — Prepare | `init-session.sh <skill> <feature>`, then `set-field.sh` for Target URL / Environment / Viewport / etc. |
+| 3 — Navigate & Check | `playwright-cli` for browser, `log-audit.sh` for every event, `write-finding.sh` for every CHECK FAIL |
+| 4 — Close | `end-session.sh`, `validate-session.sh` |
+
+## Hard rules
+
+- Never write `audit.log` or finding files by hand — always go through the scripts in `skills/web-navigator/scripts/`.
+- After every `goto`, take a fresh snapshot with `--filename=…` and use `find-ref.sh` to get element refs. Stale refs no-op silently.
+- Every `CHECK ... FAIL` entry must be followed by a `write-finding.sh` call. The validator enforces this.
+- Production guardrail (`check-host.sh`) before every `goto` and every redirect target.
+
+## Canonical example
+
+`exploratory-reports/EXAMPLE-functional-testing-the-internet-login/` shows a complete clean session — use it as a reference for output shape.

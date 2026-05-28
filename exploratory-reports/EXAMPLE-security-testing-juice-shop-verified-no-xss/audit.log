@@ -1,0 +1,25 @@
+[17:26:07] [info] SESSION: initialized — skill=security-testing, feature=juice-shop-xss
+[17:26:08] [info] SESSION: mission — Probe Juice Shop search/product input for reflected XSS (one attack category: XSS/Injection)
+[17:26:08] [info] SESSION: scope-guard — Authorized: this is an intentionally-vulnerable training site (OWASP)
+[17:26:08] [info] SESSION: attack-category — XSS / Injection (POISED: O,D priority)
+[17:26:08] [info] SESSION: hat — Hostile user
+[17:26:10] [info] ACT: open browser (headless, 1280x720)
+[17:26:14] [info] NAV: goto https://juice-shop.herokuapp.com → https://juice-shop.herokuapp.com/#/ ("OWASP Juice Shop")
+[17:26:15] [info] SNAPSHOT: saved → 01-root.yaml
+[17:26:15] [info] EVIDENCE: screenshot → 01-homepage-baseline.png
+[17:27:10] [info] ACT: click 'Me want it!' (dismiss cookie banner, ref=e5)
+[17:27:11] [info] SNAPSHOT: saved → 02-after-cookies.yaml
+[17:27:16] [info] ACT: click search icon (ref=e80) to expand search box
+[17:27:18] [info] SNAPSHOT: saved → 03-search-expanded.yaml
+[17:28:07] [info] ACT: fill search box (ref=e31) with iframe javascript: payload
+[17:28:13] [info] ACT: press Enter to submit search
+[17:28:16] [info] SNAPSHOT: saved → 04-after-xss-submit.yaml
+[17:28:17] [info] EVIDENCE: screenshot → 02-after-xss-submit.png
+[17:28:21] [info] DATA: no XSS verified — window.__XSS_FIRED__ unset, no iframe with javascript: src found
+[17:28:22] [info] CHECK: WSTG-INPV-01 — PASS — Search query input — XSS payload not executed in this probe
+[17:29:04] [info] SESSION: probe 2 — SQL injection on login form
+[17:29:05] [info] NAV: goto https://juice-shop.herokuapp.com/#/login → https://juice-shop.herokuapp.com/#/login ("OWASP Juice Shop")
+[17:29:06] [info] SNAPSHOT: saved → 05-login.yaml
+[17:29:08] [warn] SESSION: probe 2 skipped — couldn't find login form fields
+[17:29:10] [info] ACT: close browser
+[17:29:11] [info] SESSION: completed — 1 passed, 0 failed, 2 steps

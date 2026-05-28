@@ -1,0 +1,64 @@
+- generic:
+  - dialog "cookieconsent" [ref=e1]:
+    - generic [ref=e2]:
+      - text: This website uses fruit cookies to ensure you get the juiciest tracking experience.
+      - button "learn more about cookies" [ref=e3] [cursor=pointer]: But me wait!
+    - button "dismiss cookie message" [ref=e5] [cursor=pointer]: Me want it!
+  - generic [ref=e9]:
+    - generic [ref=e12]:
+      - button "Open Sidenav" [ref=e149] [cursor=pointer]:
+        - img [ref=e14]: menu
+      - button "Back to homepage" [ref=e150]:
+        - generic [ref=e19]:
+          - img "OWASP Juice Shop" [ref=e151]
+          - generic [ref=e21]: OWASP Juice Shop
+      - generic "Click to search" [ref=e152]:
+        - button "Open search" [ref=e153] [cursor=pointer]:
+          - img [ref=e27]: search
+        - generic:
+          - img [ref=e30]: search
+          - textbox [active] [ref=e31]: <iframe src="javascript:window.__XSS_FIRED__=Date.now()"></iframe>
+          - button "Close search" [ref=e154] [cursor=pointer]:
+            - img [ref=e33]: close
+      - generic [ref=e36]:
+        - button "Show/hide account menu" [ref=e155]:
+          - img [ref=e38]: account_circle
+          - generic [ref=e39]: Account
+        - button "Show the shopping cart" [ref=e156]:
+          - img [ref=e43]: shopping_cart
+          - generic [ref=e44]:
+            - text: Your Basket
+            - generic [ref=e45]: "0"
+        - button "Language selection menu" [ref=e157]:
+          - img [ref=e49]: language
+          - generic [ref=e50]: EN
+    - generic [ref=e161]:
+      - heading "Login" [level=1] [ref=e162]
+      - generic [ref=e163]:
+        - generic [ref=e166]:
+          - generic [ref=e167]:
+            - text: Email
+            - generic [ref=e168]: "*"
+          - textbox "Text field for the login email" [ref=e170]:
+            - /placeholder: ""
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - text: Password
+            - generic [ref=e176]: "*"
+          - textbox "Text field for the login password" [ref=e178]:
+            - /placeholder: ""
+          - button "Button to display the password" [ref=e180] [cursor=pointer]:
+            - img [ref=e181]: eye
+        - link "Forgot your password?" [ref=e186] [cursor=pointer]:
+          - /url: "#/forgot-password"
+        - button "Login" [disabled]:
+          - img: exit_to_app
+          - generic: Log in
+        - generic [ref=e188]:
+          - generic [ref=e189] [cursor=pointer]:
+            - checkbox "Checkbox to stay logged in or not logged in" [ref=e191]
+            - generic:
+              - img
+          - generic [ref=e192] [cursor=pointer]: Remember me
+        - link "Not yet a customer?" [ref=e194] [cursor=pointer]:
+          - /url: "#/register"
